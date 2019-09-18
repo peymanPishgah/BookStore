@@ -1,0 +1,45 @@
+.podcast-box{
+    position: relative;
+    width: 330px;
+    text-align: center;
+    box-shadow: rgba(183, 183, 183, 0.32) 5px 5px 10px 1px;
+    height: 250px;
+    transition: box-shadow, padding 0.5s;
+    padding: 3px;
+    margin: 10px 10px 30px 20px;
+}
+.podcast-box:hover{
+    box-shadow: rgba(183, 183, 183, 0.32) 1px 1px 10px 3px;
+}
+.podcast-img{
+    background-size: cover;
+    border-radius: 50%;
+    width: 180px;
+    margin: 0 auto;
+    transform: rotate(-20deg);
+    transition: transform 0.5s;
+    height:180px;
+}
+.podcast-img:hover{
+    transform: rotate(20deg);
+}
+.podcast-title{
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+.info-podcasr{
+    position: absolute;
+    color: springgreen;
+    font-size: 22px;
+    left: 5px;
+    cursor: pointer;
+    bottom: 5px;
+}
+.shopping-podcast{
+    position: absolute;
+    cursor: pointer;
+    color: springgreen;
+    font-size: 22px;
+    right: 5px;
+    bottom: 5px;
+}

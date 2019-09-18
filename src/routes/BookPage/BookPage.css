@@ -1,0 +1,104 @@
+.book-info-holder{
+    display: flex;
+    height: 300px;
+    background-color: #FCE4EC;
+}
+.book-info-holder:hover{
+    background-color: #f6f6f6;
+    box-shadow: #eaeaea 4px 1px 10px 1px ;
+}
+
+.bp-title{
+    flex: 1;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left: #0dff8f solid 1px;
+    padding-bottom: 10px;
+    border-radius: 76px;
+    border-bottom: 1px dashed #b7b7b7;
+    margin-bottom: 40px;
+    /*box-shadow: #b7b7b7 4px 1px 4px 1px ;*/
+}
+.bp-img-holder{
+    /*border-left:  rgba(164, 164, 164, 0.78) solid 5px;*/
+    border-top:   rgba(13, 255, 143, 0.78) solid 5px;
+    border-radius: 1px;
+    flex: 1;
+}
+.bp-img-writer-holder{
+    /*border-right: rgba(164, 164, 164, 0.78) solid 5px;*/
+    border-bottom:  rgba(13, 255, 143, 0.78) solid 5px;
+    border-radius: 1px;
+    flex: 1;
+}
+.bp-sumery{
+    flex: 3;
+    color: #000000;
+    padding: 25px;
+    line-height: 27px;
+    text-align: justify;
+    direction: rtl;
+    /*border-left: black solid 1px;*/
+    font-size: 13px;
+    /*background-color: rgba(148, 151, 244, 0.48);*/
+}
+.bp-btns{
+    background-color: orange;
+    flex:1;
+}
+.bp-img{
+    width: 90%;
+    background-position-x: -37px  ;
+    height: 90%;
+    border-radius: 6px;
+    background-size: cover;
+    margin-top:15px;
+}
+
+.bp-img-writer{
+    border-radius: 6px;
+    width: 90%;
+    background-position-x: -50px;
+    height: 90%;
+    background-size: cover;
+    margin-top:15px;
+}
+.bp-btn-dl{
+    width: 400px;
+    color: white;
+    font-size: 20px;
+    margin-right: -70px;
+    font-weight: bolder;
+    background-color: #009688;
+    height: 45px;
+    margin-left: 4px;
+}
+.bp-btn-search{
+    height: 45px;
+    margin: 0 4px;
+    background-color: #4CAF50;
+    width: 200px;
+}
+.bp-btn-nemune{
+    margin: 0 4px;
+    height: 45px;
+    background-color: #8BC34A;
+    width: 200px;
+}
+.bp-btn-nazarat{
+    background-color: #CDDC39;
+    height: 45px;
+    margin: 0 4px;
+    width: 200px;
+}
+.pishnahad-title{
+    display: block;
+    padding: 10px;
+    width: 55%;
+    margin: 0 auto;
+    border-top: 2px solid #ff8520;
+    border-bottom: 4px solid #7a7a7a;
+    /*width: 70%;*/
+}
+

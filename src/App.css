@@ -1,0 +1,126 @@
+body{
+    font-family: iranyekan !important;
+    margin: 0;
+    direction: rtl;
+}
+body{
+    font-family: iranyekan !important;
+    margin: 0;
+    direction: rtl;
+}
+.top-header{
+    display: flex;
+    text-align: center;
+    height: 28px;
+    background-color: #00796B;
+}
+.top-header-item{
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+    flex: 1;
+}
+.top-header-item:hover{
+    /*background-color: #004D40;*/
+    color: white;
+    border-bottom: 3px solid #FFC107;
+}
+.header-container{
+    z-index: 100;
+    background-color: #1DE9B6;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    border-top: 1px solid #ffffff;
+    height: 60px;
+}
+.search-box{
+    flex: 6;
+    position: relative;
+    margin-top: 13px;
+}
+.logo-box{
+    flex: 1;
+    background-image: url("./img/Beats-Logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 84px;
+    rotation: 100deg;
+
+}
+.navbar-item-box ul{
+    display: flex;
+    text-align: center;
+    height: 100%;
+    width: 95%;
+    line-height: 45px;
+}
+
+.menu-icon{
+    width: 70px;
+    flex: 1;
+    text-align: center;
+    margin-top: 14px;
+}
+.menu-title{
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.menu-list{
+    line-height: 30px;
+}
+.header-icons-holder{
+    flex: 4;
+    display: flex;
+}
+.nav-item{
+    /*margin-top: 10px;*/
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    flex: 1;
+    height: 100%;
+    transition: color, font-size 0.5s ease;
+    width: 100%;
+}
+.nav-item:hover{
+    background-color: white;
+    color: #FFC107;
+    font-size: 30px;
+    border-bottom: 1px solid #FFC107;
+
+}
+.nav-item-icon{
+    margin-top: 15px;
+}
+.list-item{
+    margin-right: 30px;
+    color: white;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.main-container{
+    padding-right: 120px;
+    padding-left: 25px;
+    padding-top: 15px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    min-height: 100vh;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.pagination-style{
+    width: 100%;
+    margin-top: 30px;
+    /*background-color: #1DE9B6;*/
+    margin-left: 80px;
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+.big-icons-holder{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 30px;
+    direction: rtl;
+    position: relative;
+    justify-content: space-around;
+}
+.big-icon{
+    opacity: 0.5;
+    width: 70px;
+    /*background-color: #0dff8f;*/
+    border-radius: 30%;
+    border-right: 1px solid rgba(0, 0, 0, 0.35);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+    padding: 10px;
+    display: block;
+    transition: padding 0.3s;
+}
+.big-icon:hover{
+    opacity: 0.4;
+    padding: 14px;
+}
+.icon-title{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.55);
+    font-weight: bolder;
+    display: block;
+ }
+.home-title-holder{
+    width: 100%;
+    /*background-color: rgba(29, 233, 182, 0.2);*/
+    margin-bottom: 10px;
+    position: relative;
+}
+.home-titles{
+    padding: 2px 8px;
+    display: inline;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+    text-align: right;
+    margin-right: 48px;
+}
+.title-arrow{
+    font-size: 30px;
+    position: absolute;
+    top: 1px;
+    color: #1DE9B6;
+    right: 20px;
+
+}
